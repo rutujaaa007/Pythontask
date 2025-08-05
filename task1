@@ -1,0 +1,4 @@
+import os
+curr_dir = os.getcwd()
+print(" The current working directory is:", curr_dir)
+
