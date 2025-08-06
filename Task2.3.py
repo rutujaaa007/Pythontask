@@ -29,7 +29,7 @@ def process_files_simply():
             words_count = 0
             modified_content_lines = []
 
-            print(f"Processing '{filename}':")
+            print(f"'{filename}':")
 
             try:
                 with open(input_filepath, 'r', encoding='utf-8') as infile:
@@ -59,3 +59,4 @@ def process_files_simply():
 
 if __name__ == "__main__":
     process_files_simply()
+
